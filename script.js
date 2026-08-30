@@ -1,6 +1,6 @@
 const IMAGES = {
-  hero: "/images/hero.jpg",   
-  about: "/images/about.jpg",  
+  hero: "images/hero.jpg",   
+  about: "images/about.jpg",  
 
   services: {
     personalisedGifts: "images/Resin frame.jpg",
@@ -14,12 +14,12 @@ const IMAGES = {
   },
 
   featured: {
-    1: "/images/nikahTray.jpg",
-    2: "/images/keepsake.jpg", 
-    3: "/images/personalisedKeychain.jpg", 
-    4: "/images/bookmark.jpg", 
-    5: "/images/pendant.jpg", 
-    6: "/images/custom_gift_set.jpg"  // Custom Gift Set
+    1: "images/nikahTray.jpg",
+    2: "images/keepsake.jpg", 
+    3: "images/personalisedKeychain.jpg", 
+    4: "images/bookmark.jpg", 
+    5: "images/pendant.jpg", 
+    6: "images/custom_gift_set.jpg"  // Custom Gift Set
   },
 
   gallery: {
