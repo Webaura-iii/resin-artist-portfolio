@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noor Resin Studio — Handcrafted Resin Art Portfolio</title>
+<meta name="description" content="Noor Resin Studio — handcrafted, personalised resin art: keepsakes, jewellery, wedding trays, bookmarks and gifts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="grain" aria-hidden="true"></div>
+<div class="glow glow-1"></div>
+<div class="glow glow-2"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="nav-inner">
+    <a href="#home" class="logo">
+      <span class="logo-mark">N</span>
+      <span class="logo-text">NOOR <em>RESIN STUDIO</em></span>
+    </a>
+    <nav class="main-nav" aria-label="Primary" id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#collections">Collections</a>
+      <a href="#custom">Custom Orders</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="#contact" class="btn btn-gold nav-cta">Let's Create</a>
+      <button class="hamburger" id="hamburgerBtn" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-scrim" id="drawerScrim"></div>
+<nav class="mobile-drawer" id="mobileDrawer" aria-label="Mobile">
+  <button class="drawer-close" id="drawerClose" type="button" aria-label="Close menu">&times;</button>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#collections">Collections</a>
+  <a href="#custom">Custom Orders</a>
+  <a href="#process">Process</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="btn btn-gold drawer-cta">Let's Create</a>
+</nav>
+
+<div class="lightbox-scrim" id="lightboxScrim"></div>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close">&times;</button>
+  <div class="lightbox-grid" id="lightboxContent"></div>
+</div>
+
+<main id="main">
+
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Handcrafted Resin Art</p>
+        <h1 class="reveal">Made by Hand.<br><em>Made to Be Remembered.</em></h1>
+        <p class="hero-sub reveal">[Add your story here...] — handcrafted, personalised resin pieces created for meaningful moments, thoughtful gifting and special occasions.</p>
+        <div class="hero-ctas reveal">
+          <a href="#custom" class="btn btn-outline">Custom Order</a>
+          <a href="#featured" class="btn btn-gold">Explore My Work</a>
+        </div>
+      </div>
+      <div class="hero-media reveal">
+        <div class="hero-media-frame">
+          <div class="media" id="heroMedia" style="--ar:4/5;"></div>
+          <span class="floret f1">✦</span>
+          <span class="floret f2">✦</span>
+          <span class="floret f3">❉</span>
+          <div class="glass-chip">
+            <strong>100%</strong>
+            <span>Handcrafted</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-media reveal">
+        <div class="media" id="aboutMedia" style="--ar:3/4;"></div>
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">About the Artist</p>
+        <h2>Noor</h2>
+        <p class="about-story">
+            Hi, I’m Noor, a resin artist who loves turning simple ideas into beautiful handmade pieces.
+            What started as a creative interest slowly became a passion for working with resin. I enjoy experimenting with colours, textures, flowers, and tiny details to create pieces that feel personal and unique.
+            From delicate earrings and charming keychains to custom handmade creations, every piece is carefully designed and made with patience. Since each item is handmade, no two pieces are ever exactly the same — and that is what makes them special.
+            For me, resin art is not just about creating something beautiful. It is about adding a little creativity to everyday life and making pieces that people can connect with, gift, and keep close.
+            Thank you for visiting my little creative space. I hope you find something here that feels special to you.
+        </p>
+        <div class="stat-row">
+          <div class="stat-card"><strong>100+</strong><span>Custom Creations</span></div>
+          <div class="stat-card"><strong>50+</strong><span>Unique Designs</span></div>
+          <div class="stat-card"><strong>100%</strong><span>Handcrafted</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true"><span></span><em>✦</em><span></span></div>
+
+    <section class="featured" id="featured">
+    <div class="container">
+      <div class="section-head reveal"><p class="eyebrow">Selected Pieces</p><h2>Featured Work</h2></div>
+      <div class="featured-grid" id="featuredGrid"></div>
+    </div>
+    </section>
+
+  <section class="services" id="collections">
+    <div class="container">
+      <div class="section-head center reveal"><p class="eyebrow">What I Create</p><h2>Collections</h2></div>
+      <div class="services-grid" id="servicesGrid"></div>
+    </div>
+  </section>
+
+  <section class="custom" id="custom">
+    <div class="container">
+      <div class="section-head center reveal"><p class="eyebrow">Made For You</p><h2>Your Idea, Made in Resin.</h2><p class="section-sub">Share your idea and I'll help bring it to life as a one-of-a-kind resin piece — for a wedding, a gift, or something just for you.</p></div>
+      <div class="steps-row reveal">
+        <div class="step-card"><span>01</span><h3>Share Your Idea</h3><p>Tell me what you're imagining — occasion, names, colours.</p></div>
+        <div class="step-card"><span>02</span><h3>Discuss the Design</h3><p>We refine the details together before anything is made.</p></div>
+        <div class="step-card"><span>03</span><h3>Create</h3><p>Your piece is handcrafted with care, start to finish.</p></div>
+        <div class="step-card"><span>04</span><h3>Receive Your Keepsake</h3><p>Carefully packaged and sent your way.</p></div>
+      </div>
+      <div class="section-cta reveal"><a href="#" class="btn btn-gold">Start a Custom Order</a></div>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-head center reveal"><p class="eyebrow">How I Work</p><h2>The Process</h2></div>
+      <div class="timeline reveal">
+        <div class="timeline-item"><span class="t-num">01</span><div><h3>Concept</h3><p>Understanding the customer's idea and requirements.</p></div></div>
+        <div class="timeline-item"><span class="t-num">02</span><div><h3>Design</h3><p>Planning colours, flowers, names, shapes or personal details.</p></div></div>
+        <div class="timeline-item"><span class="t-num">03</span><div><h3>Craft</h3><p>Creating the resin piece carefully by hand.</p></div></div>
+        <div class="timeline-item"><span class="t-num">04</span><div><h3>Finish</h3><p>Final polishing, quality checking and packaging.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-card reveal"><span class="why-icon">✦</span><h3>Handcrafted</h3></div>
+        <div class="why-card reveal"><span class="why-icon">✦</span><h3>Personalised</h3></div>
+        <div class="why-card reveal"><span class="why-icon">✦</span><h3>Made With Care</h3></div>
+        <div class="why-card reveal"><span class="why-icon">✦</span><h3>Meaningful Moments</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-head center reveal"><p class="eyebrow">Kind Words</p><h2>What Customers Say</h2></div>
+      <div class="testimonial-grid reveal">
+        <div class="testimonial-card"><div class="t-stars">★★★★★</div><p>"Add customer review here."</p><div class="t-name">Customer Name <span>— Custom Order</span></div></div>
+        <div class="testimonial-card"><div class="t-stars">★★★★★</div><p>"Add customer review here."</p><div class="t-name">Customer Name <span>— Custom Order</span></div></div>
+        <div class="testimonial-card"><div class="t-stars">★★★★★</div><p>"Add customer review here."</p><div class="t-name">Customer Name <span>— Custom Order</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="instagram">
+    <div class="container">
+      <div class="section-head center reveal"><p class="eyebrow">@noorresinstudio</p><h2>On Instagram</h2></div>
+      <div class="insta-grid" id="instaGrid"></div>
+      <div class="section-cta reveal"><a href="#" class="btn btn-outline">See More of My Work</a></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container contact-inner reveal">
+      <p class="eyebrow eyebrow-light">Get in Touch</p>
+      <h2>Let's Create Something Meaningful.</h2>
+      <p>Have an idea for a custom resin piece? Reach out — I'd love to hear about it.</p>
+      <div class="contact-ctas">
+        <a href="#" class="btn btn-gold">Message on Instagram</a>
+        <a href="#" class="btn btn-outline">WhatsApp</a>
+        <a href="#" class="btn btn-outline">Custom Order</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <a href="#home" class="logo"><span class="logo-mark">N</span><span class="logo-text">NOOR <em>RESIN STUDIO</em></span></a>
+      <p>Handcrafted resin pieces for meaningful moments, made with care.</p>
+    </div>
+    <div class="footer-col"><h4>Quick Links</h4><a href="#about">About</a><a href="#work">My Work</a><a href="#custom">Custom Orders</a><a href="#process">Process</a></div>
+    <div class="footer-col"><h4>Collections</h4><a href="#collections">Personalised Gifts</a><a href="#collections">Wedding &amp; Nikkah</a><a href="#collections">Jewellery</a></div>
+    <div class="footer-col"><h4>Connect</h4><a href="#">Instagram</a><a href="#">WhatsApp</a><a href="#contact">Contact</a></div>
+  </div>
+  <div class="container footer-bottom"><p>© 2026 Noor Resin Studio. All rights reserved.</p></div>
+</footer>
+
+<button class="back-to-top" id="backToTop" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
